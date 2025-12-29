@@ -1047,7 +1047,7 @@ local function C_b()
 	script.Parent.MouseButton1Click:Connect(function() 
   local ReplicatedStorage = game:GetService("ReplicatedStorage")
   local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-  RequestCommand:InvokeServer(";sh Sabers93New join your map lol")
+  RequestCommand:InvokeServer(";sh Sabers93New will Distroyer map lol")
  end)
 end;
 task.spawn(C_b);
@@ -4005,7 +4005,7 @@ local function C_43()
 	script.Parent.MouseButton1Click:Connect(function() 
   local ReplicatedStorage = game:GetService("ReplicatedStorage")
   local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-  RequestCommand:InvokeServer(";sm join team s93new now!")
+  RequestCommand:InvokeServer(";sm s93new hax your game 😱")
  end)
 end;
 task.spawn(C_43);
