@@ -3673,7 +3673,7 @@ local function C_35()
 	script.Parent.MouseButton1Click:Connect(function() 
   local ReplicatedStorage = game:GetService("ReplicatedStorage")
   local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent
-  RequestCommand:InvokeServer(";music 115586069521920 ;volume inf ;pitch 0.1")
+  RequestCommand:InvokeServer(";music 73293994328169 ;volume inf ;pitch 0.131")
  end)
 end;
 task.spawn(C_35);
